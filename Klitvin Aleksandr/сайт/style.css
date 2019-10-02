@@ -14,6 +14,7 @@ section {
   text-shadow: 0px 0px 10px #FF69B4, 0px 0px 30px #FF69B4;
  box-shadow: 0 0 10px #66CDAA, 0 0 40px #66CDAA, 0 0 80px #66CDAA;
  border-style: inset; 
+ transition: 0.2s;
 }
 a {
   text-decoration: none;
@@ -43,6 +44,8 @@ a {
 }
 section:hover{ 
   border-color: #000080; 
+   transition: 0.5s;
+  transform: scale(1.06);
 }
 .one {
   background-color: #A80909;
