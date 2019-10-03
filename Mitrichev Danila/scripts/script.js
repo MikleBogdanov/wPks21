@@ -9,7 +9,7 @@
 //cvs.offsetWidth
 //cvs.offsetHeight
 var drops = [{}];
-var color = '#431be3';
+var color = '#dbdbdb';
 update();
 function update(){
 	brain();
@@ -17,7 +17,7 @@ function update(){
 	requestAnimationFrame(update);
 } 
 function brain(){
-	if(rain == 1 || rain == 'blod' || rain == 'rainbow'){
+	if(rain == 1 || rain == 'blod' || rain == 'rainbow' || rain == 0){
 		addDrop();
 		for(i in drops){
 			drops[i].oy += drops[i].ySpeed;
@@ -27,11 +27,13 @@ function brain(){
 		}
 	}
 	if(rain == 1){
-		color = '#431be3';
+		color = '#5C2EE8';
 	}else if(rain == 'blod'){
-		color = '#640509';
+		color = '#FF4D40';
 	}else if(rain == 'rainbow'){
 		color = randColor();
+	}else if(rain == 0){
+		color = '#ececec';
 	}
 }
 function addDrop(){
