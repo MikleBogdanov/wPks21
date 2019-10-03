@@ -11,13 +11,13 @@ body {
 header {
 	position: absolute;
 	display: block;
-    background: url(img/3.jpg);
-    width: 1880px;
-    height: 500px;
-    margin-left: 20px;
-    margin-top: 10px;
-    box-shadow: 5px 1px 15px;
-    border-radius: 5px;
+	background: url(img/3.jpg);
+	width: 1880px;
+	height: 500px;
+	margin-left: 20px;
+	margin-top: 10px;
+	box-shadow: 5px 1px 15px;
+	border-radius: 5px;
 }
 
 .pic1 {
@@ -106,9 +106,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: -145px;
-    width: 75px;
+	top: 105px;
+	left: -145px;
+	width: 75px;
 } 
 
 .t1:hover {
@@ -130,9 +130,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: -55px;
-    width: 75px;
+	top: 105px;
+	left: -55px;
+	width: 75px;
 } 
 
 .t2:hover {
@@ -154,9 +154,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 35px;
-    width: 75px;
+	top: 105px;
+	left: 35px;
+	width: 75px;
 } 
 
 .t3:hover {
@@ -178,9 +178,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 125px;
-    width: 75px;
+	top: 105px;
+	left: 125px;
+	width: 75px;
 } 
 
 .t4:hover {
@@ -202,9 +202,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 215px;
-    width: 75px;
+	top: 105px;
+	left: 215px;
+	width: 75px;
 } 
 
 .t5:hover {
@@ -226,9 +226,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 190px;
-    left: -145px;
-    width: 75px;
+	top: 190px;
+	left: -145px;
+	width: 75px;
 } 
 
 .t6:hover {
@@ -250,9 +250,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 190px;
-    left: -55px;
-    width: 75px;
+	top: 190px;
+	left: -55px;
+	width: 75px;
 } 
 
 .t7:hover {
@@ -274,9 +274,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 190px;
-    left: 35px;
-    width: 75px;
+	top: 190px;
+	left: 35px;
+	width: 75px;
 } 
 
 .t8:hover {
@@ -298,9 +298,9 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 190px;
-    left: 125px;
-    width: 75px;
+	top: 190px;
+	left: 125px;
+	width: 75px;
 } 
 
 .t9:hover {
@@ -359,11 +359,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: -300px;
-    width: 225px;
-    background-color: #FDBBBB;
-    border-radius: 10px;
+	top: 105px;
+	left: -300px;
+	width: 225px;
+	background-color: #FDBBBB;
+	border-radius: 10px;
 } 
 
 .p1:hover {
@@ -385,11 +385,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: -50px;
-    width: 225px;
-    background-color: #E8EAB7;
-    border-radius: 10px;
+	top: 105px;
+	left: -50px;
+	width: 225px;
+	background-color: #E8EAB7;
+	border-radius: 10px;
 } 
 
 .p2:hover {
@@ -411,11 +411,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 200px;
-    width: 225px;
-    background-color: #5B7BA3;
-    border-radius: 10px;
+	top: 105px;
+	left: 200px;
+	width: 225px;
+	background-color: #5B7BA3;
+	border-radius: 10px;
 } 
 
 .p3:hover {
@@ -437,11 +437,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 200px;
-    left: -300px;
-    width: 200px;
-    background-color: #F6A75C;
-    border-radius: 10px;
+	top: 200px;
+	left: -300px;
+	width: 200px;
+	background-color: #F6A75C;
+	border-radius: 10px;
 } 
 
 .p4:hover {
@@ -463,11 +463,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 200px;
-    left: -75px;
-    width: 200px;
-    background-color: #F93F3F;
-    border-radius: 10px;
+	top: 200px;
+	left: -75px;
+	width: 200px;
+	background-color: #F93F3F;
+	border-radius: 10px;
 } 
 
 .p5:hover {
@@ -489,11 +489,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 200px;
-    left: 150px;
-    width: 290px;
-    background-color: #E2D5F5;
-    border-radius: 10px;
+	top: 200px;
+	left: 150px;
+	width: 290px;
+	background-color: #E2D5F5;
+	border-radius: 10px;
 } 
 
 .p6:hover {
@@ -515,11 +515,11 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 445px;
-    width: 115px;
-    background-color: #8EDE73;
-    border-radius: 10px;
+	top: 105px;
+	left: 445px;
+	width: 115px;
+	background-color: #8EDE73;
+	border-radius: 10px;
 } 
 
 .p7:hover {
@@ -578,10 +578,10 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: -90px;
-    width: 210px;
-    border-radius: 10px;
+	top: 105px;
+	left: -90px;
+	width: 210px;
+	border-radius: 10px;
 } 
 
 .hm1:hover {
@@ -603,10 +603,10 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-    top: 105px;
-    left: 160px;
-    width: 210px;
-    border-radius: 10px;
+	top: 105px;
+	left: 160px;
+	width: 210px;
+	border-radius: 10px;
 } 
 
 .hm2:hover {
@@ -623,13 +623,13 @@ header {
 }
 
 footer {
-position: fixed;
-left: 0; bottom: 0;
-padding: 0;
-background: #181818;  
-width: 100%;
-margin: 0 auto;
-box-shadow: 1px 1px 15px;
+	position: fixed;
+	left: 0; bottom: 0;
+	padding: 0;
+	background: #181818;  
+	width: 100%;
+	margin: 0 auto;
+	box-shadow: 1px 1px 15px;
 }
 
 .under {
@@ -660,13 +660,13 @@ box-shadow: 1px 1px 15px;
 }
 
 .soc img:hover {
-    transition: 0.3s;
-    transform: scale(1.1);
+	transition: 0.3s;
+	transform: scale(1.1);
 }
 
 .soc img:not(:hover) {
-    transition: 0.2s;
-    transform: scale(1);
+	transition: 0.2s;
+	transform: scale(1);
 }
 
 @media screen and (max-width: 1601px) {
@@ -684,9 +684,13 @@ box-shadow: 1px 1px 15px;
 		max-width: 11%;
 	}
 
+	.study {
+		font-size: 25px;
+	}
+
 	.name {
-		font-size: 40px;
-		margin-top: 30px;
+		font-size: 35px;
+		margin-top: 10px;
 
 	}
 
@@ -702,7 +706,7 @@ box-shadow: 1px 1px 15px;
 	.t1, .t2, .t3, .t4, .t5 {
 		font-size: 42px;
 		width: 60px;
-		top: 60px;
+		top: 70px;
 	}
 
 	.t1 {
@@ -755,7 +759,7 @@ box-shadow: 1px 1px 15px;
 
 	.p1, .p2, .p3, .p4, .p5 {
 		font-size: 42px;
-		width: 215px;
+		width: 200px;
 	}
 
 	.practice {
@@ -768,7 +772,7 @@ box-shadow: 1px 1px 15px;
 	}
 
 	.p1, .p2, .p3 {
-		top: 60px;
+		top: 70px;
 	}
 
 	.p3 {
@@ -776,13 +780,13 @@ box-shadow: 1px 1px 15px;
 	}
 
 	.p4, .p5 {
-		top: 130px;
-		width: 190px;
+		top: 140px;
+		width: 175px;
 	}
 
 	.p6 {
-		top: 130px;
-		width: 250px;
+		top: 140px;
+		width: 240px;
 		font-size: 42px;
 	}
 
@@ -812,8 +816,8 @@ box-shadow: 1px 1px 15px;
 
 	.p7 {
 		left: -280px;
-		top: 200px;
-		width: 90px;
+		top: 210px;
+		width: 100px;
 		font-size: 42px;
 	}
 
@@ -843,7 +847,7 @@ box-shadow: 1px 1px 15px;
 	}
 
 	.hm2 {
-		left: 50px;
+		left: 75px;
 	}
 
 }
