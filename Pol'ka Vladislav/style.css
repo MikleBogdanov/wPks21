@@ -696,6 +696,31 @@ header {
 	transition: 0.2s;
 }
 
+.hm3 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 200px;
+	left: -90px;
+	width: 210px;
+	border-radius: 10px;
+} 
+
+.hm3:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.hm3:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 footer {
 	position: fixed;
 	left: 0; bottom: 0;
