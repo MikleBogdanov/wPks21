@@ -161,6 +161,7 @@ p{
 	float: left;
 	margin-right: 0.5%;
 	box-shadow: 1px 1px 0px #4121A3, 1px 1px 5px rgba(65, 33, 163, 1);
+	border-radius: 2px;
 }
 .fill{background-color: #5C2EE8;}
 
