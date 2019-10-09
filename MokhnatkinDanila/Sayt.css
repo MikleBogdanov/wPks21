@@ -1,0 +1,78 @@
+header img{
+	height: 150px;
+	width: 100%;
+	margin: 0;
+}
+.avatarka{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.avatarka img{
+	height: 200px;
+	width: 250px;
+	border-radius: 50 40 50 50;
+}
+.gradient{
+    font-family: 'montserrat';
+  font-size: 3vw;
+  font-weight: bold;
+  margin-left: 28%;
+  letter-spacing: 1vw;
+  max-width: 700px;
+  text-align: center;
+  background: rgba(255, 253, 160, 1);
+  background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+  -webkit-background-clip: text;
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-animation-name: masked-animation;
+  -webkit-animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes masked-animation {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: -8000px -3000px;
+  }
+}
+.spisok a{
+	color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: rgb(212,75,56); /* фон кнопки */
+  padding: .6em 5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+
+}
+.spisok a:hover{
+	background: rgb(232,95,76);
+}
+.spisok a:active{
+	background: rgb(152,15,0);
+}
+
+.spisok li{
+	padding: 15px;
+}
+.awesome a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 30px;
+  	height: 30px;
+	border-radius: 50%;
+	border: 1px solid;
+	/*
+	display: inline-block;*/
+	font-size: 140%;
+	}
+

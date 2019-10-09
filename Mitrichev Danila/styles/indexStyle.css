@@ -1,17 +1,18 @@
 #canvas{
-	position: absolute;
+	position: fixed;
 	z-index: -100;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background-color: #ececec;
 }
 *{
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
-	color: #555;
+	color: #444;
 }
-
+body{ background-color: #ececec; }
+a{ text-decoration: none; }
 .wrapper{
 	width: 1170px;
 	margin: 0px auto;
@@ -29,9 +30,8 @@
 }
 
 .my_photo{
-	border-radius: 50%;
 	height: 350px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 h1{
@@ -54,6 +54,7 @@ h2{
 
 /*	Контакты	*/
 .left_container{
+	position: fixed;
 	background-color: #fff;
 	float: left;
 	width: 243px;
@@ -129,3 +130,45 @@ a > i.github_link{
 	background-color: #555;
 	text-shadow: 0px 0px 8px#000;
 }
+
+
+/*	Портфолио	*/
+h3{
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+p{
+	margin: 10px;
+	text-align: left;
+	font-size: 20px;
+}
+
+/*	Проф навыки	*/
+.skill{
+	margin: 45px auto;
+}
+.progressiv_bar{
+	width: 100%;
+	margin: 0px auto;
+	height: 10px;
+}
+
+.progressiv_cell{
+	background-color: rgba(92, 46, 232, .1);
+	width: 19.5%;
+	height: 8px;
+	float: left;
+	margin-right: 0.5%;
+	box-shadow: 1px 1px 0px #4121A3, 1px 1px 5px rgba(65, 33, 163, 1);
+	border-radius: 2px;
+}
+.fill{background-color: #5C2EE8;}
+
+/* Colors
+	survive: #FF4D40 - красный
+	life: #6FFF6A - зеленый
+	future: #5C2EE8/#4121A3 - фиолетовый
+	#33FFE1 - голубой
+	#E8BA2E - желтый
+*/

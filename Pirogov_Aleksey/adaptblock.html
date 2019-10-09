@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>AdaptBlock</title>
+	<style type="text/css">
+		body {
+  			margin: 0;
+  			font-family: sans-serif;
+		}
+		.section {
+  			background-color: #1785;
+  			color: #fff;
+  			height: 100vh;
+  			display: flex;
+  			justify-content: center;
+  			align-items: center;
+  			position: relative;
+  			perspective: 1000px;
+		}
+		.heading {
+  			margin-left: 60%;
+		}
+		.phone, 
+		.tablet,
+		.desctop {
+  			background-color: #2727;
+  			box-shadow: 13px 13px 32px 0 rgba(0,45,39,255);
+  			position: absolute;
+  			transition: 1s;
+  			transform: translateY(100%);
+		}
+		.section:hover .phone,
+		.section:hover .tablet,
+		.section:hover .desctop {
+  			transform: translateY(10px) rotateY(-15deg);
+		}
+		.phone {
+  			width: 200px;
+  			height: 280px;
+  			left: 5%;
+  			bottom: 0;
+  			background: #fff url('https://www.internet-design.ru/upload/iblock/4ea/programmist.svg') center no-repeat;
+  			z-index: 3;
+  			transition-delay: 0.2s;
+		}
+		.tablet {
+  			width: 360px;
+  			height: 380px;
+  			background: #fff url('https://www.internet-design.ru/upload/iblock/4ea/programmist.svg');
+  			bottom: 0;
+  			left: 10%;
+  			z-index: 1;
+  			transition-delay: 0.4s;
+		}
+		.desctop {
+  			width: 680px;
+  			height: 480px;
+  			background: #fff url('https://www.internet-design.ru/upload/iblock/4ea/programmist.svg');
+  			bottom: 0;
+  			left: 15%;
+  			transition-delay: 0.6s; 
+		}
+	</style>
+</head>
+<body>
+	<div class="section">
+  		<div class="phone"></div>
+  		<div class="tablet"></div>
+  		<div class="desctop"></div>
+  		<h1 class="heading">Пирогов Алексей</h1>
+	</div>
+</body>
+</html>
