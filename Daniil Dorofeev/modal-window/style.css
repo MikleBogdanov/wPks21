@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+body h1 {
+  position: absolute;
+}
+
+h1 a {
+  cursor: pointer;
+  color: blue;
+}
+
+.bg-shadow {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.window-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal-window {
+  background-color: white;
+  height: 500px;
+  width: 350px;
+}
+
+.modal-header {
+  height: 40px;
+  width: 100%;
+  background-color: #050b15;
+}
+
+.modal-header i:hover {
+  color: red;
+}
+
+.modal-header i {
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 40px;
+  margin-right: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+p {
+  margin-top: 2px !important;
+  margin: 10px;
+  color: white;
+  float: left;
+  font-family: sans-serif;
+  font: small-caps bold 30px Arial;
+}
