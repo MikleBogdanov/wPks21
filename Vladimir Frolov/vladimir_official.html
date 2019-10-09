@@ -138,7 +138,7 @@
 			border: 2px solid #fff;
 		}
 		.btn {
-			width: 200px;
+			width: 100px;
       		height: 50px;
       		background: #fff;
       		border-radius: 5px;
@@ -201,6 +201,49 @@
 			border-radius: 5px;
 			border: 2px solid #6C6960;
 		}
+
+		#zatemnenie {
+        background: rgba(102, 102, 102, 0.5);
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+      	}
+      	#okno {
+        	width: 250px;
+        	height: 300px;
+        	text-align: center;
+        	padding: 15px;
+        	border-radius: 10px;
+        	color: #6C6960;
+        	position: absolute;
+        	top: 0;
+        	right: 0;
+        	bottom: 0;
+        	left: 0;
+        	margin: auto;
+        	background: #fff;
+      	}
+      	#zatemnenie:target {display: block;}
+      	.close {
+      		position: absolute;
+      		top: 1px;
+      		right: 3px;
+        	color: #6C6960;
+        	text-decoration: none;
+        	font-size: 25px;
+        	cursor:pointer;
+      	}
+      	.fa-thermometer-three-quarters {
+      		font-size: 100px;
+      		top: 30px;
+      		position: relative;
+      	}
+      	.fa-thermometer-three-quarters:hover {
+      		color: #00FFFF;
+      	}
 	</style>
 </head>
 <body>
@@ -266,6 +309,7 @@
  			<tr>
  				<td><a href="slider1.html"><div class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i></div></a></td>
  				<td><a href="slider_3.html"><div class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i></div></a></td>
+ 				<td><a class="btn" href="#zatemnenie"><i class="fa fa-check-square" aria-hidden="true"></i></a></td>
  			</tr>
  			<tr>
  				<td><a href="kalkulator.html"><div class="btn"><i class="fa fa-calculator" aria-hidden="true"></i></div></a></td>
@@ -324,5 +368,12 @@
  		</tr>
  	</table>
  </div>
+
+ <div id="zatemnenie">
+      <div id="okno">
+        <h1 class="txt1">Тольятти<br> Сегодня +10°C <br><i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i></h1>
+        <a href="#" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+    </div>
 </body>
 </html>
