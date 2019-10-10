@@ -132,6 +132,21 @@ a > i.github_link{
 }
 
 
+/*	Стилизация блока для прокрутки	*/
+.skill_scroll,
+.complete-work_scroll{
+	background: none;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 18px;
+	margin: 5px auto;
+}
+
+.scroll_nav{
+	font-size: 24px;
+}
+
 /*	Портфолио	*/
 h3{
 	text-transform: uppercase;
