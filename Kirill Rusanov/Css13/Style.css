@@ -1,0 +1,33 @@
+body {
+    background-color: #5864a8;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fb607f;
+    vertical-align: middle;
+    margin-left: -10px;
+    margin-right: 10px;
+    transition: 0.5s;
+    border: 3px solid;
+}
+
+input[type="checkbox"]:checked + label::before {
+    background-color: #d4ce29;
+    content: '+';
+    font-family: sans-serif;
+    text-align: center;
+    border-radius: 50%;
+}

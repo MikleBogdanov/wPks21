@@ -19,7 +19,11 @@ body{
 
 .photo{
 	margin-top: -350px;
+<<<<<<< HEAD
+	margin-left: 400px;
+=======
 	margin-left: 40%;
+>>>>>>> eeb82985617d554f28474280411d17a54e1deb60
 }
 
 .photo img{
