@@ -292,7 +292,7 @@ a {
 	color: black;
 }
 
-.night-theme {
+.theme {
 	height: 28px;
 	float: left;
 	display: inline-block;
@@ -303,14 +303,14 @@ a {
 	transition: 0.3s;
 }
 
-.night-theme i {
+.theme i {
 	color: #222;
 	font-size: 25px;
 	float: left;
 	transition: 0.3s;
 }
 
-.night-theme p {
+.theme p {
 	float: left;
 	margin: 0;
 	margin-left: 10px !important;
@@ -319,14 +319,14 @@ a {
 	transition: 0.3s;
 }
 
-.night-theme:hover {
+.theme:hover {
 	background-color: #444;
 }
 
-.night-theme:hover p {
-	color: #ddd;
+.theme:hover p {
+	color: #ddd !important;
 }
 
-.night-theme:hover i {
-	color: #ddd;
+.theme:hover i {
+	color: #ddd !important;
 }
