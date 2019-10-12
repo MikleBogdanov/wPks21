@@ -1,14 +1,14 @@
 body {
 	background: #000000;
   position: absolute;
-  top: 380px;
-  right: 650px;
+  top: 50%;
+  right: 50%;
 }
 .container {
   padding: 1vw;
   position: absolute;
   top: 0%;
-  left: 100%;
+  left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
 }
@@ -47,6 +47,8 @@ body {
 }
 
 a {
+  position: relative;
+  left: 0%;
 	font-size: 200%;
 	background-color: #800080;
     -webkit-background-clip: text;

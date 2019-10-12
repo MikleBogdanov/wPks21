@@ -7,6 +7,7 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
 	<script src="https://kit.fontawesome.com/a4f84400aa.js" crossorigin="anonymous"></script>
 	<script src="scripts/script.js"></script>
+	<script src="scripts/scrollScript.js"></script>
 	<script></script>
 </head>
 <body>
@@ -34,6 +35,15 @@
 				</div>
 			</div>
 		</div>
+
+		<!-- MINIMAP/SCROLL -->
+		<div class="left_container">
+			<h2 class="scroll_nav">Навигация по сайту</h2>
+			<hr>
+			<input onclick="scrollTo(scrollToSkill)" type="button" class="skill_scroll" value="Навыки"></input><br>
+			<input onclick="scrollTo(scrollToCompleteWork)" type="button" class="complete-work_scroll" value="Выполненный работы"></input>
+		</div>
+
 		<!-- Шапка -->
 		<header>
 			<div class="right_container">
@@ -44,7 +54,7 @@
 			</div>
 		</header>
 
-		<div class="right_container">
+		<div class="right_container" id="scrollToSkill">
 			<h3>Профессиональные навыки</h3>
 			<div class="skill">
 				<p>HTML</p>
@@ -99,7 +109,7 @@
 		</div>
 		
 		<!-- Выполненные задания -->
-		<!-- 
+		
 		<div class="right_container">
 			<h3>Выполненые задания</h3>
 			<div class="project">

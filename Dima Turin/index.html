@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dima TYURIN</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		body{
+			background-color: #DCADFF;
+
+		}
+		@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+    margin: 0: padding: 0;
+}
+body {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+.txt{
+	color: #9478F5;
+	position: relative;
+	text-align: center;
+	justify-content: center;
+}
+.img{
+	border-radius: 100px;
+	border: 0px;
+	box-shadow: 0 0 7px;
+	position: relative; 
+	width: 220px;
+}
+.a1{
+	color: #9478F5;
+
+
+}
+.breadcrumb {
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.breadcrumb a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    outline: none;
+    display: block;
+    float: left;
+    color: white;
+    font-size: 14px;
+    line-height: 60px;
+    width: 316px;
+    position: relative;
+    background: #282d61;
+}
+ .breadcrumb a:last-child {
+    width: 342px;
+}
+.breadcrumb a.active,
+.breadcrumb a:hover {
+    background: #222753;
+    background: linear-gradient(#13162e, #0d0f20);
+    transition: all 1s;
+}
+.breadcrumb a.active:after,
+.breadcrumb a:hover:after {
+    background: #222753;
+    background: linear-gradient(#13162e, #0d0f20);
+    transition: all 1s;
+}
+.breadcrumb a:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 60px;
+    height: 60px;
+    transform: scale(0.707) rotate(45deg);
+    z-index: 1;
+    background: #282d61;
+    box-shadow: 3px -3px 0 2px rgba(255, 255, 255, 0.8);
+    border-radius: 0 5px 0 50px;
+}
+.breadcrumb a:last-child:after {
+    content: none;
+}
+	</style>
+</head>
+<body>
+ <div class="container">
+        <div class="breadcrumb">
+            <a href="kslider.html" class="active">Слайдер</a>
+            <a href="#">Игра</a>
+            <a href="#">Калькулятор</a>
+        </div>
+    </div>
+    <h1 class="txt">Dmity Tyutrin</h1>
+    <img src="12.jpg" class="img">
+    <div class="a1">
+    	<h2>Я начинающий программист , и вот что я могу вам показать!</h2>
+    </div>
+</body>
+</html>

@@ -364,6 +364,30 @@ header {
 	transition: 0.2s;
 }
 
+.t12 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 275px;
+	left: -55px;
+	width: 75px;
+} 
+
+.t12:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t12:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka {
 	position: absolute;
 	margin: 0 auto;
@@ -661,6 +685,32 @@ header {
 	transition: 0.2s;
 }
 
+.p11 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 85px;
+	width: 100px;
+	background-color: #E0FF9A;
+	border-radius: 10px;
+} 
+
+.p11:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p11:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka2 {
 	position: absolute;
 	margin: 0 auto;
@@ -917,6 +967,12 @@ footer {
 		top: 190px;
 	}
 
+	.t12 {
+		width: 60px;
+		font-size: 42px;
+		top: 190px;
+	}
+
 	.t6 {
 		left: -110px;
 	}
@@ -939,6 +995,10 @@ footer {
 
 	.t11 {
 		left: -110px;
+	}
+
+	.t12 {
+		left: -42px;
 	}
 
 	.palka {
@@ -966,7 +1026,7 @@ footer {
 	}
 
 	.p3 {
-		width: 220px;
+		width: 170px;
 	}
 
 	.p4, .p5 {
@@ -1031,6 +1091,14 @@ footer {
 		width: 150px;
 		font-size: 42px;
 	}
+
+	.p11 {
+		left: 280px;
+		top: 140px;
+		width: 100px;
+		font-size: 42px;
+	}
+
 
 	.palka2 {
 		top: 415px;

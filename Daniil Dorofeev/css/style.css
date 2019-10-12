@@ -127,7 +127,7 @@ body {
 }
 
 .work a:hover {
-	color: blue;
+	color: blue !important;
 	margin-left: 15px;
 }
 
@@ -221,7 +221,7 @@ footer {
 	height: 50px;
 	margin-bottom: 0 !important;
 	border-radius: 10px 10px 0 0;
-	background-color: white !important;
+	background-color: white;
 }
 
 footer h1 {
@@ -271,7 +271,7 @@ footer h1 {
 }
 
 .social-circle:hover .fa-vk {
-	color: #4872a3;
+	color: #4872a3 !important;
 }
 
 .social-circle:hover {
@@ -280,14 +280,53 @@ footer h1 {
 }
 
 .social-circle:hover .fa-discord {
-	color: #7289da;
+	color: #7289da !important;
 }
 
 .social-circle:hover .fa-twitch {
-	color: #8c00ff;
+	color: #8c00ff !important;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.night-theme {
+	height: 28px;
+	float: left;
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px solid #222;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.night-theme i {
+	color: #222;
+	font-size: 25px;
+	float: left;
+	transition: 0.3s;
+}
+
+.night-theme p {
+	float: left;
+	margin: 0;
+	margin-left: 10px !important;
+	line-height: 25px;
+	color: #222;
+	transition: 0.3s;
+}
+
+.night-theme:hover {
+	background-color: #444;
+}
+
+.night-theme:hover p {
+	color: #ddd;
+}
+
+.night-theme:hover i {
+	color: #ddd;
 }

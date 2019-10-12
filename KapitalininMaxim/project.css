@@ -6,8 +6,9 @@ body {
 }
 
 img {
-	border: 2px;
-	color: #ff0000;
+  display: inline-block;
+	border: 20px;
+	border-color: #ff0000;
 }
 
 a {
