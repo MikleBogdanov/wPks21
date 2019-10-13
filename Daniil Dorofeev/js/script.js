@@ -17,6 +17,7 @@ $('.theme').click(function(event) {
 		$('.menu-top i').css('color', '#ddd');
 		$('.block, footer').css('background-color', '#303030');
 		$('.container img').css('border', '2px solid #ddd');
+		$('.theme i').css('color', '#f5f5f5');
 		$('.theme p').html('Дневная тема');
 		$('.theme i').removeClass('far fa-moon');
 		$('.theme i').addClass('fas fa-sun');
@@ -28,6 +29,7 @@ $('.theme').click(function(event) {
 		$('.menu-top i').css('color', '#4baff2');
 		$('.block, footer').css('background-color', 'white');
 		$('.container img').css('border', '2px solid #ddd');
+		$('.theme i').css('color', '#222');
 		$('.theme').css('background-color', '');
 		$('.theme p').html('Ночная тема');
 		$('.theme i').removeClass('fas fa-sun');
@@ -40,27 +42,3 @@ $('.theme').click(function(event) {
 		currentTheme = 1;
 	}
 });
-
-if(currentTheme == 1) {
-	$('.theme').hover(function() {
-		$('.theme').css('background-color', '#444');
-		$('.theme p').css('color', '#ddd');
-		$('.theme i').css('color', '#ddd');
-	}, function() {
-		$('.theme').css('background-color', '#f5f5f5');
-		$('.theme p').css('color', '#222');
-		$('.theme i').css('color', '#222');
-	});
-}
-
-if(currentTheme == 2) {
-	$('.theme').hover(function() {
-		$('.theme').css('background-color', '#');
-		$('.theme p').css('color', '#');
-		$('.theme i').css('color', '#');
-	}, function() {
-		$('.theme').css('background-color', '#');
-		$('.theme p').css('color', '#');
-		$('.theme i').css('color', '#');
-	});
-}
