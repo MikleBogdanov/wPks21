@@ -388,6 +388,30 @@ header {
 	transition: 0.2s;
 }
 
+.t13 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 275px;
+	left: 38px;
+	width: 75px;
+} 
+
+.t13:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t13:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka {
 	position: absolute;
 	margin: 0 auto;
@@ -973,6 +997,12 @@ footer {
 		top: 190px;
 	}
 
+	.t13 {
+		width: 60px;
+		font-size: 42px;
+		top: 190px;
+	}
+
 	.t6 {
 		left: -110px;
 	}
@@ -999,6 +1029,10 @@ footer {
 
 	.t12 {
 		left: -42px;
+	}
+
+	.t13 {
+		left: 28px;
 	}
 
 	.palka {
