@@ -75,9 +75,37 @@ header img{
 	display: inline-block;*/
 	font-size: 140%;
 	}
+/*
+.down h5{
+width: 150px;
+}
+
 .down h5:hover{
 	font-size: 130%;
 }
+
 .down h5(:not):hover{
 	font-size: 100%;
+}
+*/
+.strashilka img{
+width: 300px;
+height: 400px;
+}
+
+.imagetip span{
+    
+    visibility: hidden;
+    position: absolute;
+    left: 270px;
+    bottom: -300px;
+    border-radius: 5px;
+    width: 20%;
+    z-index: 9999;
+    width: 300px;
+    height: 400px;
+
+}
+.imagetip:hover span{
+visibility: visible;
 }
