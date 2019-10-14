@@ -1,6 +1,7 @@
 body {
 	background-color: #f5f5f5;
 	font-family: 'Montserrat',  sans-serif;
+	transition: 0.3s;
 }
 
 .container {
@@ -14,10 +15,15 @@ body {
 	flex-direction: column;
 }
 
+i {
+	transition: 0.3s;
+}
+
 .block {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 	background-color: white;
 	margin: 10px;
+	transition: 0.3s;
 }
 
 .menu-top h1 {
@@ -127,7 +133,7 @@ body {
 }
 
 .work a:hover {
-	color: blue;
+	color: blue !important;
 	margin-left: 15px;
 }
 
@@ -221,7 +227,7 @@ footer {
 	height: 50px;
 	margin-bottom: 0 !important;
 	border-radius: 10px 10px 0 0;
-	background-color: white !important;
+	background-color: white;
 }
 
 footer h1 {
@@ -271,7 +277,7 @@ footer h1 {
 }
 
 .social-circle:hover .fa-vk {
-	color: #4872a3;
+	color: #4872a3 !important;
 }
 
 .social-circle:hover {
@@ -280,14 +286,41 @@ footer h1 {
 }
 
 .social-circle:hover .fa-discord {
-	color: #7289da;
+	color: #7289da !important;
 }
 
 .social-circle:hover .fa-twitch {
-	color: #8c00ff;
+	color: #8c00ff !important;
 }
 
 a {
 	text-decoration: none;
 	color: black;
+}
+
+.theme {
+	height: 28px;
+	float: left;
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px solid #222;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.theme i {
+	color: #222;
+	font-size: 25px;
+	float: left;
+	transition: 0.3s;
+}
+
+.theme p {
+	float: left;
+	margin: 0;
+	margin-left: 10px !important;
+	line-height: 25px;
+	color: #222;
+	transition: 0.3s;
 }
