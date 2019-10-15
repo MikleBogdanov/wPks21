@@ -1,0 +1,53 @@
+body {
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	background-color: #DEDEDE;
+}
+
+.container {
+	transition: 0.3s;
+	transform-origin: left center;
+
+}
+
+.sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 400px;
+	height: 100%;
+	background-color: #333;
+	color: #fff;
+	transition: 0.3s;
+	transform-origin: right center;
+	transform: rotateY(50deg);
+}
+
+.close-btn {
+	position: fixed;
+	color: #fff;
+	top: 10px;
+	right: 10px;
+	font-size: 20px;
+}
+
+.close-btn:hover {
+	color: #DEDEDE;
+	text-decoration: none;
+}
+
+.sidebar:target {
+	transform: rotateY(0deg);
+}
+
+.sidebar:target ~ .container {
+	transform: rotateY(20deg);
+}
+
+@media screen and (max-width: 1601px) {
+
+	.sidebar {
+		transform: rotateY(55deg);
+	}
+}
+
