@@ -109,3 +109,20 @@ height: 400px;
 .imagetip:hover span{
 visibility: visible;
 }
+
+#anchor{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 30%;
+  width: 500px;
+  height: 400px;
+  padding: 1px;
+   
+}
+
+.path1{
+  height: 380px;
+  width: 100%;
+background:  linear-gradient(45deg, deeppink, yellow, lime);
+
+}
