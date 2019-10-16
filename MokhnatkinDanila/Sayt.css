@@ -97,7 +97,7 @@ height: 400px;
     
     visibility: hidden;
     position: absolute;
-    left: 270px;
+    left: 40%;
     bottom: -300px;
     border-radius: 5px;
     width: 20%;
@@ -121,8 +121,34 @@ visibility: visible;
 }
 
 .path1{
-  height: 380px;
+  height: 450px;
   width: 100%;
 background:  linear-gradient(45deg, deeppink, yellow, lime);
 
+}
+
+#anchor h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.path2{
+  height: 450px;
+  width: 100%;
+  background: linear-gradient(45deg, red, blue);
+}
+ 
+#anchor2 h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#anchor2{
+  position: relative;
+  margin-left: 30%;
+  width: 500px;
+  height: 300px;
+  padding: 1px;
 }
