@@ -75,9 +75,80 @@ header img{
 	display: inline-block;*/
 	font-size: 140%;
 	}
+/*
+.down h5{
+width: 150px;
+}
+
 .down h5:hover{
 	font-size: 130%;
 }
+
 .down h5(:not):hover{
 	font-size: 100%;
+}
+*/
+.strashilka img{
+width: 300px;
+height: 400px;
+}
+
+.imagetip span{
+    
+    visibility: hidden;
+    position: absolute;
+    left: 40%;
+    bottom: -300px;
+    border-radius: 5px;
+    width: 20%;
+    z-index: 9999;
+    width: 300px;
+    height: 400px;
+
+}
+.imagetip:hover span{
+visibility: visible;
+}
+
+#anchor{
+  position: relative;
+  margin-left: 30%;
+  margin-top: 30%;
+  width: 500px;
+  height: 400px;
+  padding: 1px;
+   
+}
+
+.path1{
+  height: 450px;
+  width: 100%;
+background:  linear-gradient(45deg, deeppink, yellow, lime);
+
+}
+
+#anchor h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.path2{
+  height: 450px;
+  width: 100%;
+  background: linear-gradient(45deg, red, blue);
+}
+ 
+#anchor2 h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#anchor2{
+  position: relative;
+  margin-left: 30%;
+  width: 500px;
+  height: 300px;
+  padding: 1px;
 }
