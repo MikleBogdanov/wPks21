@@ -2,95 +2,83 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pirogov Aleksey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
 	<style type="text/css">
 		 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 		body {
-    margin: 0px;
-    padding: 0px;
-    font: 14px 'Verdana';
-    background: #7695;
-    font-family: 'Montserrat Alternates', sans-serif;
+     margin: 0px;
+     padding-top: 0px;
+     font: 14px 'Verdana';
+     background: #5365;
+     font-family: 'Montserrat Alternates', sans-serif;
 }
-ul {
-    list-style: none;
-    display: block;
-    margin:0px;
-    padding:0px;
-}
-ul:after {
-    display: block;
-    float: none;
-    content: ' ';
-    clear: both;
-}
-ul.mmenuu > li {
-    float: left;
-    position: relative;
-}
-ul.mmenuu > li > a {
-    display: block;
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    background-color: #da570f;
-}
-ul.mmenuu > li > a:hover {
-    background-color: #eb9316;
-}
-ul.ssubmenuu {
-    position: absolute;
-    width: 240px;
-    top: 15px;
-    left:0px;
-    display: none;
-    background-color: white;
-}
-ul.ssubmenuu > li {
-    display: block;
-}
-ul.ssubmenuu > li > a {
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    color: #ffffff;
-    background-color: #da570f;
-}
-ul.ssubmenuu > li > a:hover {
-    background-color: #eb9316;
-    text-decoration: underline;
-}
-ul.mmenuu > li:hover > ul.ssubmenuu {
-    display: block;
-}
-.txt {
-	color: #fff;
-	text-align: center; 
-}
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
-.round {
-    border-radius: 100px; 
-    border: 0px solid white; 
-    box-shadow: 0 0 7px #666; 
-    position: absolute;
-    top: 155px;
-    right: 890px;
-   }
-  .txt_2{
-  	position: absolute;
-  	justify-content: center;
-  	top: 300px;
-  	color: white;
-  	right: 800px;
+.header{
+            width: 800px;
+            height: 200px;
+            background: #fff;
+            position: relative;
+            text-align: center;
+            top: -650px;
+            left: 600px;
+            border-radius: 5px;
+            box-shadow: 7px 7px 5px rgba(0,0,0,0.6);           
+        }
+            .social a {
+            font-size: 10px;
+            width: 20px;
+            height: 20px;
+            float: right;
+            background: #fff;
+            border: 3px solid #c2bcb0;
+            border-radius: 10px;
+            margin: 0 5px 5px 0;
+            padding: 7px;
+            color: black;
+            position: relative;
+            top: 150px;
+            left: 5px;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            box-shadow: 7px 7px 5px rgba(0,0,0,0.6);  
   }
-  .container{
+   .okno {
+            width: 150px;
+            height: 650px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+            position: relative;
+            left: 50px;
+            top: 250px;
+            text-align: center;
+            
+        }
+        .botton {
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            border-radius: 5px;
+            font-family: 'Verdana', cursive;
+            color: #c2bcb0;
+            overflow: hidden;
+            border: 2px solid #c2bcb0;
+        display: flex;
+            justify-content: center;
+            align-items: center;
+           margin: 19px;
+            font-size: 30px;
+        }
+        .container{
     width: 1000px;
     position: relative;
     display: flex;
     justify-content: space-between;
+   top: -500px;
+   left: 500px;
 }
 
 .container .card{
@@ -102,9 +90,7 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
     width: 300px;
     height: 200px;
     transition: 0.5s;
-    top: 250px;
-    right: -455px;
-    }
+}
 
 .container .card .face.face1{
     position: relative;
@@ -148,7 +134,7 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1px;
+    padding: 20px;
     box-sizing: border-box;
     box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
     transform: translateY(-100px);
@@ -169,7 +155,7 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
     text-decoration: none;
     font-weight: 900;
     color: #333;
-    padding: 10px;
+    padding: 5px;
     border: 1px solid #333;
 }
 
@@ -177,38 +163,64 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
     background: #333;
     color: #fff;
 }
-
 	</style>
 </head>
 <body>
-	<ul class="mmenuu">
-    <li><a href="slider.html">Слайдер</a>
-    </li>
-    <li><a href="">Фичи css</a>
-        <ul class="ssubmenuu">
-            <li><a href="3dcard.html">1</a></li>
-            <li><a href="adaptblock.html">2</a></li>
-			<li><a href="chekbox.html">3</a></li>
-            <li><a href="css_ficha_10.html">4</a></li>
-			<li><a href="css_ficha_11.html">5</a></li>
-            <li><a href="css_ficha_12.html">6</a></li>
-			<li><a href="css_ficha_15.html">7</a></li>
-            <li><a href="css_ficha_16.html">8</a></li>
-            <li><a href="css_ficha_17.html">10</a></li>
-            <li><a href="css_ficha_18.html">11</a></li>
-            <li><a href="gamburger.html">12</a></li>
-            <li><a href="gamburger1.html">13</a></li>
-            <li><a href="gamburger2.html">14</a></li>
-        </ul>
-    </li>
-    <li><a href="flepiberd.html">Игра</a>
-    </li>
-</ul>
-<p><img src="Screenshot_6.png" alt="" class="round">
+
+    <div class="okno">
+        <h1>Фичи CSS</h1>
+        <table>
+        	<tr>
+        		<td><a class="botton" href="3dcard.html">1</a></td>
+       			<td><a class="botton" href="adaptblock.html">2</a></td>
+       		</tr>
+       		<tr>
+       			<td><a class="botton" href="chekbox.html">3</a></td>
+       			<td><a class="botton" href="css_ficha_10.html">4</a></td>
+       		</tr>
+       		<tr>	
+        		<td><a class="botton" href="css_ficha_11.html">5</a></td>
+       			<td><a class="botton" href="css_ficha_12.html">6</a></td>
+       		</tr> 
+       		<tr>
+       			<td><a class="botton" href="css_ficha_15.html">7</a></td>
+       			<td><a class="botton" href="css_ficha_16.html">8</a></td>
+       		</tr> 
+       		<tr>
+       			<td><a class="botton" href="css_ficha_17.html">9</a></td>
+       			<td><a class="botton" href="css_ficha_18.html">10</a></td>
+       		</tr>
+       		<tr>
+        		<td><a class="botton" href="gamburger.html">11</a></td>
+        		<td><a class="botton" href="gamburger1.html">12</a></td>
+        	</tr>
+        	<tr>
+        		<td><a class="botton" href="gamburger2.html">13</a></td>
+        		<td><a class="botton" href="konvert.html">14</a></td>
+        	</tr>
+        	<tr>
+        		<td><a class="botton" href="menu-left.html">15</a></td>
+        	</tr>
+        </table>
+    </div>
+<div src=""\\ class="header">
+    <div class="social youtube">
+            <a href="https://www.youtube.com/channel/UCe0plcAyXdQt-6XZ_FzIGzQ?view_as=subscriber" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+        </div>
+        <div class="social vk">
+            <a href="https://vk.com/blvck1312" target="_blank"><i class="fa fa-vk fa-2x"></i></a>    
+        </div>
+        <div class="social instagram">
+            <a href="https://www.instagram.com/sosiwalava/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        </div>
+        <div class="social github">
+            <a href="https://github.com/lolnot202" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+        </div>
 <h1 class="txt">Пирогов Алексей</h1>
-<p class="txt">Git Hub</p>
-<h2 class="txt_2">Я начинающий веб разработчик</h2>
-    <div class="container">
+ <h2 class="txt_2">Я начинающий веб разработчик </h2>
+ <img  src="Screenshot_6.png" class="img">
+ </div>
+  <div class="container">
         <div class="card">
             <div class="face face1">
                 <div class="content">
@@ -219,7 +231,7 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
             <div class="face face2">
                 <div class="content">
                     <p>Просто слайдер</p>
-                        <a href="slider.html">OK</a>
+                        <a href="slider.html">Посмотреть</a>
                 </div>
             </div>
         </div>
@@ -227,13 +239,13 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
             <div class="face face1">
                 <div class="content">
                     <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
-                    <h3>Фичи</h3>
+                    <h3>Пока пусто</h3>
                 </div>
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p>Фичи Артем Исламов</p>
-                        <a href="Фичи">OK</a>
+                    <p>Пока пусто </p>
+                        <a href="#">Посмотреть</a>
                 </div>
             </div>
         </div>
@@ -246,12 +258,10 @@ ul.mmenuu > li:hover > ul.ssubmenuu {
             </div>
             <div class="face face2">
                 <div class="content">
-                    <p>Фелепи Берд</p>
-                        <a href="flepiberd.html">OK</a>
+                    <p>Flapiberd</p>
+                        <a href="flepiberd.html">Играть</a>
                 </div>
             </div>
         </div>
     </div>
-	</div>
-</body>
 </html>
