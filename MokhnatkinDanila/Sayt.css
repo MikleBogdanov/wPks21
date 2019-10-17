@@ -44,6 +44,12 @@ header img{
     background-position: -8000px -3000px;
   }
 }
+.spisok{
+	height: 500px;
+	width: 450px;
+	border: 3px solid black;
+	
+}
 .spisok a{
 	color: #fff; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
@@ -62,6 +68,10 @@ header img{
 
 .spisok li{
 	padding: 15px;
+}
+.awesome{
+	border: 3px solid red;
+	width: 300px;
 }
 .awesome a{
 	display: flex;
