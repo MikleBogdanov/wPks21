@@ -897,8 +897,8 @@ header {
 }
 
 footer {
-	position: absolute;
-	left: 0; bottom: 0;
+	position: fixed;
+	bottom: 0;
 	padding: 0;
 	background: #181818;  
 	width: 100%;
