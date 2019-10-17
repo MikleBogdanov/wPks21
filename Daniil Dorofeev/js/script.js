@@ -42,3 +42,13 @@ $('.theme').click(function(event) {
 		currentTheme = 1;
 	}
 });
+
+$('.theme').hover(function() {
+	$('.theme').css('background', '#303030');
+	$('.theme i').css('color', '#f5f5f5');
+	$('.theme p').css('color', '#f5f5f5');
+}, function() {
+	$('.theme').css('background', '#f5f5f5');
+	$('.theme i').css('color', '#222');
+	$('.theme p').css('color', '#222');
+});

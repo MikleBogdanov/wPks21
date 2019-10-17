@@ -1,7 +1,7 @@
 body {
 	transform-style: preserve-3d;
 	perspective: 1000px;
-  background-color: #DEDEDE;
+	background-color: #DEDEDE;
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 	background-color: #333;
 	color: #fff;
 	transition: 0.3s;
-  transform-origin: right center;
+	transform-origin: right center;
 	transform: rotateY(50deg);
 }
 
@@ -42,4 +42,11 @@ body {
 
 .sidebar:target ~ .container {
 	transform: rotateY(20deg);
+}
+
+@media screen and (max-width: 1601px) {
+
+	.sidebar {
+		transform: rotateY(55deg);
+	}
 }
