@@ -1,0 +1,16 @@
+<style>
+img {
+	width: 40%;
+	float: left;
+}
+
+.img1 {
+	filter:invert(100%);
+	-webkit-filter:invert(100%); 
+}
+
+.img2 {
+	filter: sepia(100%);
+	-webkit-filter:sepia(100%);
+}
+</style>
