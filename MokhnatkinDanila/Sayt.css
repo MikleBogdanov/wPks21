@@ -44,6 +44,12 @@ header img{
     background-position: -8000px -3000px;
   }
 }
+.spisok{
+	height: 500px;
+	width: 450px;
+	
+	
+}
 .spisok a{
 	color: #fff; /* цвет текста */
   text-decoration: none; /* убирать подчёркивание у ссылок */
@@ -63,10 +69,12 @@ header img{
 .spisok li{
 	padding: 15px;
 }
+.awesome{
+	width: 300px;
+}
 .awesome a{
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	position: absolute;
+	
 	width: 30px;
   	height: 30px;
 	border-radius: 50%;
@@ -75,8 +83,9 @@ header img{
 	display: inline-block;*/
 	font-size: 140%;
 	}
-/*
+
 .down h5{
+	margin-top: 15%;
 width: 150px;
 }
 
@@ -121,7 +130,7 @@ visibility: visible;
 }
 
 .path1{
-  height: 450px;
+  height: 500px;
   width: 100%;
 background:  linear-gradient(45deg, deeppink, yellow, lime);
 
@@ -148,7 +157,7 @@ background:  linear-gradient(45deg, deeppink, yellow, lime);
 #anchor2{
   position: relative;
   margin-left: 30%;
-  width: 500px;
+  width: 580px;
   height: 300px;
   padding: 1px;
 }
