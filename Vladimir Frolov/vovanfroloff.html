@@ -422,6 +422,12 @@
       stroke-dashoffset: calc(440 - (440 * 40) / 100);
       stroke: #4dc247;
     }
+    .data {
+      position: absolute;
+      top: 5px;
+      left: 85px;
+      font-size: 15px;
+    }
 	</style>
 </head>
 <body>
@@ -571,5 +577,19 @@
         <a href="#" class="close1"><i class="fa fa-times" aria-hidden="true"></i></a>
       </div>
     </div>
+    <p class="data" style="text-align: center;">
+      <script language="javascript" type="text/javascript">
+        var d = new Date();
+
+        var day=new Array("Воскресенье","Понедельник","Вторник",
+        "Среда","Четверг","Пятница","Суббота");
+
+        var month=new Array("января","февраля","марта","апреля","мая","июня",
+        "июля","августа","сентября","октября","ноября","декабря");
+
+        document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+        + " " + d.getFullYear() + " г.");
+      </script>
+    </p>
 </body>
 </html>
