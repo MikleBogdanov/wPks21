@@ -324,3 +324,15 @@ a {
 	color: #222;
 	transition: 0.3s;
 }
+
+.go-up {
+	position: fixed;
+	font-size: 40px;
+	bottom: 25px;
+	left: 25px;
+	transition: 0.4s;
+}
+
+.go-up:hover {
+	color: #cfc1c0;
+}
