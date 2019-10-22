@@ -1,0 +1,30 @@
+a {
+	top: 10%;
+	font-size: 200%;
+	background-color: #800080;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: mediumturquoise;
+  font-family: Georgia;
+  background-color: #000000;
+}
+
+ img {
+  border-radius: 100px;
+  border: 3px solid #800080;
+  position: absolute;
+  top: 8%;
+  right: 45%;
+ }
+ h1, h2 {
+
+  color: #800080;
+ }

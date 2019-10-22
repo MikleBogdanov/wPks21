@@ -1,0 +1,22 @@
+body {
+	background: #000000;
+  position: absolute;
+  top: 100px;
+  right: 650px;
+}
+
+img {
+  display: inline-block;
+	border: 20px;
+	border-color: #ff0000;
+}
+
+a {
+	font-size: 200%;
+	background-color: #800080;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255,255,255,0.5) 0px 3px 3px;
+}

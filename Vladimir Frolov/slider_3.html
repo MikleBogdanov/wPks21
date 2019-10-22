@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Слайдер_2</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			background: #292929;
+		}
+		.slider {
+			position: relative;
+			width: 800px;
+			height: 500px;
+			overflow: hidden;
+			margin: auto;
+			border-radius: 20px;
+			top: 80px;
+		}
+		.slides {
+			width: 4800px;
+			display: flex;
+		}
+		.slide {
+			width: 800px;
+			transition: 0.6s;
+		}
+		.btnLeft, .btnRight {
+			position: absolute;
+			width: 60px;
+			height: 500px;
+			top: 0;
+			font-size: 40px;
+			line-height: 500px !important;
+			text-align: center;
+			cursor: pointer;
+			transition: 0.3s;
+			color: #fff;
+		}
+		.btnLeft:hover, .btnRight:hover{
+			background: #000000b3;
+		}
+		.btnLeft {
+			left: 0;
+		}
+		.btnRight {
+			right: 0;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div class="slider">
+		<div class="slides">
+			<div class="slide">
+				<img src="1.jpg">
+			</div>
+			<div class="slide">
+				<img src="2.jpg">
+			</div>
+			<div class="slide">
+				<img src="3.jpg">
+			</div>
+			<div class="slide">
+				<img src="4.jpg">
+			</div>
+		</div>
+		<div onclick="goLeft()" class="btnLeft fas fa-chevron-left"></div>
+		<div onclick="goRight()" class="btnRight fas fa-chevron-right"></div>
+	</div>
+	<script type="text/javascript">
+		var slides = document.getElementsByClassName("slide");
+		var index = 0;
+		function goLeft() {
+			if(index == 0) index = slides.length - 1;
+			else index--;
+
+			slides[0].style.marginLeft = "-" + index * 800 + "px";
+		}
+		function goRight() {
+			if(index == slides.length -1) index = 0;
+			else index++;
+
+			slides[0].style.marginLeft = "-" + index * 800 + "px";
+		}
+	</script>
+</body>
+</html>

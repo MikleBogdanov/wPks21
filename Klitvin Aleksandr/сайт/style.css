@@ -2,17 +2,61 @@ body{
   background-color: #324855;
 }
 p{
-  color: white;
+  color: black;
 }
-section {
-  height: 30vh;
+.section{
+  height: 19vh;
   display: flex;
   justify-content: center;
   align-items: center;
   color: black;
+ margin: 50px;
+  text-shadow: 0px 0px 10px #FF69B4, 0px 0px 30px #FF69B4;
+ box-shadow: 0 0 10px #66CDAA, 0 0 40px #66CDAA, 0 0 80px #66CDAA;
+ border-style: inset; 
+ transition: 0.2s;
 }
-a{
-  color: white;
+ .section a {
+     display: block; 
+     text-align: center; 
+     height: 100%;
+    }
+  
+a {
+  text-decoration: none;
+  position: relative;
+  color:white;
+
+}
+.menu-list {
+    display: inline-block;
+    color:#FFEFD5;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+}
+.menu-list a:after {
+    background-color: #FFA07A;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+    width: 100%;
+}
+.section:hover{ 
+  border-color: #000080; 
+   transition: 0.5s;
+  transform: scale(1.06);
+}
+.link a{
+  display: block;
+  height: 100%;
 }
 .one {
   background-color: #A80909;
@@ -47,6 +91,18 @@ a{
 .eleven{
   background-color:#5E5D37;
 }
+.tvelve{
+  background-color: grey;
+}
+.threten{
+  background-color: #5E5D37;
+}
+.fourteen{
+  background-color: #37435E;
+}
+
+
+
 .wrapper {
   position: relative;
   overflow-x: hidden;
@@ -63,7 +119,7 @@ a{
   background-color: black;
   transition: 0.5s;
   transform: translateX(-100%);
-  background-color: #324855;
+  background-color: #FAEBD7;
 }
 .menu_active {
   transform: translateX(0%);
@@ -79,6 +135,7 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 90;
+  color:black;
 }
 .menu-btn {
   width: 30px;
@@ -95,9 +152,12 @@ a{
   transition: 1s;
   position: relative;
   z-index: 0;
+  display: block;
+}
+.content a{
+  display: block;
 }
 .content_active {
   transform: translateX(30%);
+  display: block;
 }
-
-

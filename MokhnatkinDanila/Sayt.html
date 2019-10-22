@@ -1,0 +1,262 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<META charset="utf-8">
+		<title>Персональный сайт</title>
+		<script src="https://kit.fontawesome.com/30655e4cfd.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<link rel="stylesheet" href="Sayt.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<header>
+		<div>
+		<img src="fon.jpg">
+	</div>
+	</header>
+	
+	<div class="gradient">
+		Hello World!
+	</div>
+	<div id="verhushka">
+	</div>
+	<div class="avatarka">
+	<img src="xexe.jpg">
+	</div>
+	<div class="redacher">
+	<div class="spisok">
+		<ol>
+		<li> <a href="photo/Slyder1.html"> Слайдер </a> </li> 
+		<li> <a href="Css1.html">Css фича №1 </a> </li> 
+		<li> <a href="https://goodsaytivsetyt.ucoz.net/index/css-ficha-2/0-7">Css фича №2 </a> </li>
+		<li> <a href="https://goodsaytivsetyt.ucoz.net/index/novaja-stranica2/0-6">Css фича №4 </a> </li>
+		<li> <a href="Cssfich5.html"> Сss фича №5 </a> </li>
+		<li> <a href="Css7.html">Css фича №7 </a> </li>
+		<li> <a href="Css8.html">Css фича №8 </a> </li>
+		<li> <a href="#">Css фича №9 </a> </li>
+		<li> <div class="strashilka">
+			<a class="imagetip" href="#">Хм, а что здесь?<span>
+                <img class="alignnone" src="shrek.png" /></span></a>
+
+        </div>  
+    </li>
+		<li> <a href="#modal_open">Открыть модальное окно</a></li>
+		<li> <h3>Якорные ссылки:</h3> </li>
+		<li> <a href="#anchor">Первая</a> </li>
+		<li> <a href="#anchor2">Вторая</a> </li>
+		<li> <a href="#anchor3">Третья</a> </li>
+		
+		</ol>
+	</div>
+	<div class="down">
+		<h5>Сайт ещё редактируется</h5>
+	</div>
+</div>
+<div id="modal_open" class="my_modal">
+  <div class="my_modal-dialog">
+    <div class="my_modal-content">
+      <div class="my_modal-header">
+        <p class="my_modal-title">Вау, модальное окно</p>
+        <a href="#" title="Закрыть модальное окно" class="close">×</a>
+      </div>
+      <div class="my_modal-body">    
+        <p>Как и было сказано, выполнена реализация модального окна</p>
+        <br> <h3>С увеличением строк текста, увеличивается и окно.</h3>
+        <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+<!-- кнопка -->
+<style type="text/css">
+    .my_modal{
+
+    	position:fixed;
+    	top:0;
+    	right:0;
+    	bottom:0;
+    	left:0;
+    	background:rgba(0,0,0,0.5);
+    	z-index:1050;
+    	display:none;
+    	margin:0;
+    	padding:0;
+    	}
+    	.my_modal:target{
+    		display:block;
+    		overflow-y:auto;
+    	}
+    .my_modal-dialog{
+    	position:relative;
+    	width:auto;
+    	margin:10px;}
+    	@media (min-width:576px){
+    	.my_modal-dialog{
+    		max-width:460px;
+    		margin:30px auto;
+    		}
+    	}
+    	.my_modal-content{
+    		position:relative;
+    		display:-webkit-box;
+    		display:-webkit-flex;
+    		display:-ms-flexbox;
+    		display:flex;
+    		-webkit-box-orient:vertical;
+    		-webkit-box-direction:normal;
+    		-webkit-flex-direction:column;
+    		-ms-flex-direction:column;
+    		flex-direction:column;
+    		background-color:#fff;
+    		-webkit-background-clip:padding-box;
+    		background-clip:padding-box;
+    		border:1px solid rgba(0,0,0,.2);
+    		border-radius:6px;outline:0;
+    		}
+    		@media (min-width:768px){
+    		.my_modal-content{
+    			-webkit-box-shadow:0 5px 15px rgba(0,0,0,.5);
+    			box-shadow:0 5px 15px rgba(0,0,0,.5);}
+    		}
+    .my_modal-header{
+    	display:block;
+    	padding:14px 14px 4px;
+    }
+    .my_modal-title{
+    	margin-top:0;
+    	margin-bottom:0;
+    	line-height:1.5;
+    	font-size:1.25rem;
+    	font-weight:500;
+    	border-bottom:1px solid #d4d4d4;
+    }
+    .close{padding:1px 5px 0;
+    	border:1px solid #000;
+    	border-radius:50%;
+    	font-family:sans-serif;
+    	font-size:24px;
+    	font-weight:700;
+    	line-height:1;
+    	color:#000;
+    	text-shadow:0 1px 0 #fff;
+    	opacity:.5;
+    	text-decoration:none;
+    	top:4px;
+    	right:4px;position:absolute;
+    	}
+    	.close:focus,.close:hover{
+    		color:#000;
+    		text-decoration:none;
+    		cursor:pointer;
+    		opacity:.75;}
+    .my_modal-body{
+    	position:relative;
+    	-webkit-box-flex:1;
+    	-webkit-flex:1 1 auto
+    	-ms-flex:1 1 auto;
+    	flex:1 1 auto;
+    	padding:15px;
+    	overflow:auto;}
+  </style>
+
+
+<!-- Конец кода кнопки -->
+<!-- Новая кнопочка, страшилка  -->
+
+
+<!-- Конец страшилки -->
+	<footer>
+        <!--
+		<div class="awesome">
+	  <a href="#"><i class="fas fa-camera-retro"></i></a> 
+	  <a href="#"><i class="fas fa-calendar-check"></i></a>
+      <a href="#"><i class="fas fa-calculator"></i></a>
+      <a href="Sayt.html"><i class="fas fa-home"></i></a>
+		</div>
+	-->
+		
+    
+	</footer>
+<div class="path1">
+	<div id="anchor">
+		<h2>Первая якорная ссылка</h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<strong>Кликните <a href="#verhushka">здесь,</a> если хотите вернуться в начало</strong>
+
+
+	</div>
+</div>
+<div class="path2">
+	<div id="anchor2">
+		<h2>Вторая якорная ссылка</h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<strong>Кликните <a href="#verhushka">здесь,</a> если хотите вернуться в начало</strong>
+	</div>
+</div>
+<div class="path3">
+	<div id="anchor3">
+		<h2>Третья якорная ссылка</h2>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<strong>Кликните <a href="#verhushka">здесь,</a> если хотите вернуться в начало</strong>
+
+
+	</div>
+</div>
+    <script type="text/javascript" src="js/Sayt.js"></script>
+	</body>
+	</html>
