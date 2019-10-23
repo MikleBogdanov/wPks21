@@ -460,6 +460,78 @@ header {
 	transition: 0.2s;
 }
 
+.t16 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: -148px;
+	width: 75px;
+} 
+
+.t16:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t16:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t17 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: -58px;
+	width: 75px;
+} 
+
+.t17:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t17:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t18 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: 38px;
+	width: 75px;
+} 
+
+.t18:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t18:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka {
 	position: absolute;
 	margin: 0 auto;
@@ -949,11 +1021,15 @@ header {
 footer {
 	position: fixed;
 	bottom: 0;
+	left: 600px;
 	padding: 0;
 	background: #181818;  
-	width: 100%;
+	width: 700px;
+	height: 60px;
 	margin: 0 auto;
 	box-shadow: 1px 1px 15px;
+	border-radius: 20px 20px 0 0;
+	opacity: 0.8;
 }
 
 .under {
@@ -978,7 +1054,7 @@ footer {
 
 .soc img {
 	position: relative;
-	left: 87%;
+	left: 65%;
 	padding: 5px;
 	top: 3px; 
 }
