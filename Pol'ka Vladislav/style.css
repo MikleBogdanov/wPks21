@@ -1164,6 +1164,24 @@ footer {
 		top: 200px;
 	}
 
+	.t16 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
+	}
+
+	.t17 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
+	}
+
+	.t18 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
+	}
+
 	.t6 {
 		left: -110px;
 	}
@@ -1204,10 +1222,22 @@ footer {
 		left: 168px;
 	}
 
+	.t16 {
+		left: -110px;
+	}
+
+	.t17 {
+		left: -42px;
+	}
+
+	.t18 {
+		left: 28px;
+	}
+
 	.palka {
 		top: 415px;
 		left: 370px;
-		height: 320px;
+		height: 400px;
 	}
 
 	.p1, .p2, .p3, .p4, .p5 {
@@ -1313,7 +1343,7 @@ footer {
 	.palka2 {
 		top: 415px;
 		left: 1100px;
-		height: 350px;
+		height: 400px;
 	}
 
 	.hm1, .hm2 {
@@ -1354,6 +1384,14 @@ footer {
 		width: 150px;
 		top: 155px;
 		left: 40px;
+	}
+
+	footer {
+		left: 385px;
+	}
+
+	.soc img {
+		left: 65%;
 	}
 
 }
