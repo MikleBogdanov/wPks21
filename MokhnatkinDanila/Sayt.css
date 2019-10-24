@@ -85,7 +85,7 @@ header img{
 	}
 
 .down h5{
-	margin-top: 16%;
+	margin-top: 18%;
 width: 150px;
 }
 
@@ -183,5 +183,6 @@ background:  linear-gradient(45deg, deeppink, yellow, lime);
 }
 
 .redacher{
-	padding: 20px, 40%;
+	margin-left: 200px;
+
 }
