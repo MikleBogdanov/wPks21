@@ -53,3 +53,11 @@ $('.theme').hover(function() {
 	$('.theme p').css('color', '#222');
 });
 
+function loadingFadeOut() {
+	$('.loading-container').fadeOut(400);
+	$('html').css('overflow-y', 'visible');
+}
+
+$(document).ready(function() {
+	setTimeout(loadingFadeOut, 1500);
+});
