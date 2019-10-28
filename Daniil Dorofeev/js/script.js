@@ -52,3 +52,4 @@ $('.theme').hover(function() {
 	$('.theme i').css('color', '#222');
 	$('.theme p').css('color', '#222');
 });
+
