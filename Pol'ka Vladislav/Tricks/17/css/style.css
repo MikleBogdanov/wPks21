@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: consolas;
+	background-color: #2d3436; 
+}
+
+.button {
+	position: relative;
+	display: inline;
+	color: #D980FA;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 24px;
+	letter-spacing: 4px;
+	padding: 15px 30px;
+	overflow: hidden;
+	transition: 0.2s;
+}
+
+.button__line {
+	position: absolute;
+	display: block;
+}
+
+.button__line--top {
+	top: 0;
+	left: -100%;
+	height: 1px;
+	width: 100%;
+	background: linear-gradient(90deg, transparent, #D980FA);  
+}
+
+.button:hover .button__line--top {
+	left: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.button__line--bottom {
+	bottom: 0;
+	right: -100%;
+	height: 1px;
+	width: 100%;
+	background: linear-gradient(270deg, transparent, #D980FA);  
+}
+
+.button:hover .button__line--bottom {
+	right: 100%;
+	transition: 1s;
+	transition-delay: 0.25s;
+}
+
+.button__line--left {
+	bottom: -100%;
+	left: 0;
+	height: 100%;
+	width: 1px;
+	background: linear-gradient(0deg, transparent, #D980FA);  
+}
+
+.button:hover .button__line--left {
+	bottom: 100%;
+	transition: 1s;
+	transition-delay: 0s;
+}
+
+.button__line--right {
+	top: -100%;
+	right: 0;
+	height: 100%;
+	width: 1px;
+	background: linear-gradient(180deg, transparent, #D980FA);  
+}
+
+.button:hover .button__line--right {
+	top: 100%;
+	transition: 1s;
+	transition-delay: 0s;
+}
+
+.button:hover {
+	transition-delay: 1s;
+	box-shadow: 0 0 15px #D980FA, 0 0 40px #D980FA, 0 0 80px #D980FA;
+	background-color: #D980FA;
+	color: #2d3436;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3D-card</title>
+	<style type="text/css">
+		body {
+  margin: 0;
+  font-family:sans-serif;
+}
+.section {
+background-color: #f2395A;
+color: #fff;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position:relative; 
+perspective: 1000px;
+}
+.heading {
+  margin-left:20%;
+}
+.phone,
+.tablet,
+.desctop {
+ background-color: #fff;
+  box-shadow: 13px 13px  32px 0 rgba(242,57,90,.3);
+    position:absolute;
+    transition: 1s;
+    transform:translateY(100%);
+}
+.section:hover  .phone,
+.section:hover  .tablet,
+.section:hover  .desctop {
+transform: translateY(10px) rotateY(-15deg);
+}
+.phone {
+  width: 185px;
+  height: 250px;
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  background: #fff
+  url('http://pm1.narvii.com/6824/cae740f6e34672f0d9aec46944efe52a2637f473_00.jpg') center no-repeat;
+  z-index: 3;
+  transition-delay:0.2s;
+}
+.tablet {
+  width: 300px;
+  height: 340px;
+  position:absolute;
+  background: #fff url('https://pp.userapi.com/c844721/v844721116/1542a0/L8a7BYJw8JE.jpg');
+  bottom: 0;
+  left: 15%;
+  z-index: 1;
+  transition-delay:0.4s;
+}
+.desctop {
+  width: 700px;
+  height: 400px;
+  background: #fff
+url('https://2x2tv.ru/upload/medialibrary/6b8/6b8f33f2f171b41f71df5642587d6384.jpg');
+position:absolute;
+  bottom:0;
+  left:15%;
+  transition-delay:0.6s;
+}
+</style>
+	</head>
+<body>
+	<div class="section">
+  <div class="phone"></div>
+  <div class="tablet"></div>
+  <div class="desctop"></div>
+  <h1 class="heading">Адаптивная вёрстка</h1>
+</div>
+</body>
+</html>

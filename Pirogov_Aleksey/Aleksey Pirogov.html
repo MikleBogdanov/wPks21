@@ -4,6 +4,16 @@
 	<meta charset="utf-8">
 	<title>Pirogov Aleksey</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	
+	<script type="text/javascript">
+window.onload = function() {
+    var button = document.getElementById('input_button_bg_change');
+    var body = document.getElementsByTagName('body')[0];
+    var colors = ['8affff', '#FFAACC', '#7fffd4'];
+    button.onclick = function() {
+        body.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+    };
+};
+</script>
 	<style type="text/css">
 		 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 		body {
@@ -14,13 +24,13 @@
      font-family: 'Montserrat Alternates', sans-serif;
 }
 .header{
-            width: 800px;
+            width: 1000px;
             height: 200px;
             background: #fff;
             position: relative;
             text-align: center;
-            top: -650px;
-            left: 600px;
+            top: -800px;
+            left: 500px;
             border-radius: 5px;
             box-shadow: 7px 7px 5px rgba(0,0,0,0.6);           
         }
@@ -53,7 +63,7 @@
             box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
             position: relative;
             left: 50px;
-            top: 250px;
+            top: 100px;
             text-align: center;
             
         }
@@ -77,7 +87,7 @@
     position: relative;
     display: flex;
     justify-content: space-between;
-   top: -500px;
+   top: -750px;
    left: 500px;
 }
 
@@ -163,10 +173,27 @@
     background: #333;
     color: #fff;
 }
+iframe{
+position: relative;
+top: 65px;
+left: -60px;
+border-radius: 10px;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+}
+input{
+position: relative;
+top: -120px;
+left: 1700px;
+border-radius: 100px;
+background-color: #fff;
+box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+outline: none;
+
+}
 	</style>
 </head>
-<body>
-
+<input type="button" id="input_button_bg_change" value="Поменять фон"/>
+<iframe src="https://calendar.google.com/calendar/embed?height=150&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Europe%2FSamara&amp;src=YWxla3Nlai5saW5rMDJAZ21haWwuY29t&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=dWFmdDdmYWU5M3ZjdTFuazQzODgyaTEyZ2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=bDAzcXFyMWpqbnFjbzN1djA1NHQ2Mzl0MHNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=cnUucnVzc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%2333B679&amp;color=%237986CB&amp;color=%23AD1457&amp;color=%230B8043&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0" style="border-width:0" width="150" height="150" frameborder="0" scrolling="no"></iframe>
     <div class="okno">
         <h1>Фичи CSS</h1>
         <table>
