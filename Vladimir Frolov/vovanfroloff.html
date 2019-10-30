@@ -4,9 +4,13 @@
 	<link rel="shortcut icon" href="froloff.png" type="image/x-icon">
 	<meta charset="utf-8">
 	<title>Фролов|Оффициальная страница</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<style type="text/css">
 		@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 		@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+    html {
+      scroll-behavior: smooth;
+    }
 		body {
 			font-family: 'Arctic', cursive;
     		line-height: 20px;
@@ -216,17 +220,16 @@
         	height: 300px;
         	text-align: center;
         	padding: 15px;
-        	border-radius: 10px;
-        	color: #6C6960;
+        	color: #fff;
         	position: absolute;
         	top: 0;
         	right: 0;
         	bottom: 0;
         	left: 0;
         	margin: auto;
-        	background: #fff;
+        	background: #292929;
       	}
-      	#zatemnenie:target {display: block;}
+      	#zatemnenie:target {display: block; }
       	.close {
       		position: absolute;
       		top: 1px;
@@ -422,9 +425,100 @@
       stroke-dashoffset: calc(440 - (440 * 40) / 100);
       stroke: #4dc247;
     }
+    .data {
+      position: relative;
+      top: 30%;
+      font-size: 20px;
+    }
+    #timedisplay {
+      position: relative;
+      top: 28%;
+      font-size: 20px;
+    }
+    .gotopbtn {
+      position: fixed;
+      width: 35px;
+      height: 35px;
+      background: #4dc247;
+      bottom: 40px;
+      left: 50px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 35px;
+      color: #fff;
+      font-size: 22px;
+      box-shadow: 0px 0px 10px #4dc247;
+    }
+    .gotopbtn:hover {background: #292929; color: #fff; box-shadow: none; border-radius: 0;}
+
+    #loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #292929;
+      width: 100%;
+      z-index: 10000;
+    }
+    .obj:nth-child(2) {
+      animation-delay: 0.1s;
+    }
+    .obj:nth-child(3) {
+      animation-delay: 0.2s;
+    }
+    .obj:nth-child(4) {
+      animation-delay: 0.3s;
+    }
+    .obj:nth-child(5) {
+      animation-delay: 0.4s;
+    }
+    .obj:nth-child(6) {
+      animation-delay: 0.5s;
+    }
+    .obj:nth-child(7) {
+      animation-delay: 0.6s;
+    }
+    .obj:nth-child(8) {
+      animation-delay: 0.7s;
+    }
+    .obj {
+      width: 6px;
+      height: 40px;
+      background: #4dc247;
+      margin: 0 3px;
+      border-radius: 10px;
+      animation: loading 0.8s infinite;
+      box-shadow: 0px 0px 10px #4dc247;
+    }
+    @keyframes loading {
+      0% {
+        height: 0;
+      }
+      50%{
+        height: 40px;
+      }
+      100%{
+        height: 0;
+      }
+    }
 	</style>
 </head>
 <body>
+  <div id="loading">
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+    <div class="obj"></div>
+  </div>
+
  <div class="fon">
   <a href="#zatemnenie1"><i class="fa fa-cog" aria-hidden="true"></i></a>
  	<h1 class="txt">Владимир Фролов</h1>
@@ -488,11 +582,12 @@
  			<tr>
  				<td><a href="slider1.html"><div class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i></div></a></td>
  				<td><a href="slider_3.html"><div class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i></div></a></td>
- 				<td><a class="btn" href="#zatemnenie"><i class="fa fa-check-square" aria-hidden="true"></i></a></td>
+ 				<td><a class="btn" href="#zatemnenie"><i class="fa fa-calendar" aria-hidden="true"></i></a></td>
  			</tr>
  			<tr>
  				<td><a href="kalkulator.html"><div class="btn"><i class="fa fa-calculator" aria-hidden="true"></i></div></a></td>
  				<td><a href="video.html"><div class="btn"><i class="fa fa-video-camera" aria-hidden="true"></i></div></a></td>
+        <td><a href="snake.html"><div class="btn"><i class="fa fa-gamepad" aria-hidden="true"></i></div></a></td>
  			</tr>
  			<tr>
  				<td><a href="login.html"><div class="btn"><i class="fa fa-sign-out" aria-hidden="true"></i></div></a></td>
@@ -560,8 +655,39 @@
 
  <div id="zatemnenie">
       <div id="okno">
-        <h1 class="txt1">Тольятти<br> Сегодня +10°C <br><i class="fa fa-thermometer-three-quarters" aria-hidden="true"></i></h1>
-        <a href="#" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+        <p class="data" style="text-align: center;">
+          <script language="javascript" type="text/javascript">
+            var d = new Date();
+
+            var day=new Array("Воскресенье","Понедельник","Вторник",
+            "Среда","Четверг","Пятница","Суббота");
+
+            var month=new Array("января","февраля","марта","апреля","мая","июня",
+            "июля","августа","сентября","октября","ноября","декабря");
+
+            document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+            + " " + d.getFullYear() + " г.");
+          </script>
+        </p>
+
+          <script type="text/javascript">
+            function getDate()
+            {
+              var date = new Date();
+              var hours = date.getHours();
+              var minutes = date.getMinutes();
+              var seconds = date.getSeconds();
+    //По надобности условие ниже повторить с minutes и hours
+              if(seconds < 10)
+              {
+                  seconds = '0' + seconds;
+              }
+              document.getElementById('timedisplay').innerHTML = hours + ':' + minutes + ':' + seconds;
+            }
+            setInterval(getDate, 0);
+          </script>
+          <div id="timedisplay"></div>
+          <a href="#" class="close1"><i class="fa fa-times" aria-hidden="true"></i></a>
       </div>
     </div>
 
@@ -571,5 +697,11 @@
         <a href="#" class="close1"><i class="fa fa-times" aria-hidden="true"></i></a>
       </div>
     </div>
+
+    <a href="#" class="gotopbtn"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    
+    <script>
+      $('#loading').find('i').fadeOut().end().delay(800).fadeOut('slow');
+    </script>
 </body>
 </html>

@@ -412,6 +412,126 @@ header {
 	transition: 0.2s;
 }
 
+.t14 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 275px;
+	left: 128px;
+	width: 75px;
+} 
+
+.t14:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t14:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t15 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 275px;
+	left: 218px;
+	width: 75px;
+} 
+
+.t15:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t15:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t16 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: -148px;
+	width: 75px;
+} 
+
+.t16:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t16:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t17 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: -58px;
+	width: 75px;
+} 
+
+.t17:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t17:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.t18 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 365px;
+	left: 38px;
+	width: 75px;
+} 
+
+.t18:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.t18:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka {
 	position: absolute;
 	margin: 0 auto;
@@ -735,6 +855,84 @@ header {
 	transition: 0.2s;
 }
 
+.p12 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 210px;
+	width: 170px;
+	background-color: #01a3a4;
+	border-radius: 10px;
+} 
+
+.p12:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p12:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.p13 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 405px;
+	width: 125px;
+	background-color: #1dd1a1;
+	border-radius: 10px;
+} 
+
+.p13:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p13:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.p14 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 290px;
+	left: -285px;
+	width: 100px;
+	background-color: #1dd1a1;
+	border-radius: 10px;
+} 
+
+.p14:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p14:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka2 {
 	position: absolute;
 	margin: 0 auto;
@@ -872,14 +1070,43 @@ header {
 	transition: 0.2s;
 }
 
+.hm5 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: -95px;
+	width: 210px;
+	border-radius: 10px;
+} 
+
+.hm5:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.hm5:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 footer {
 	position: fixed;
-	left: 0; bottom: 0;
+	bottom: 0;
+	left: 600px;
 	padding: 0;
 	background: #181818;  
-	width: 100%;
+	width: 700px;
+	height: 60px;
 	margin: 0 auto;
 	box-shadow: 1px 1px 15px;
+	border-radius: 20px 20px 0 0;
+	opacity: 0.8;
 }
 
 .under {
@@ -904,7 +1131,7 @@ footer {
 
 .soc img {
 	position: relative;
-	left: 87%;
+	left: 65%;
 	padding: 5px;
 	top: 3px; 
 }
@@ -950,13 +1177,13 @@ footer {
 
 	.tricks {
 		left: 125px;
-		top: 425px;
+		top: 415px;
 	}
 
 	.t1, .t2, .t3, .t4, .t5 {
 		font-size: 42px;
 		width: 60px;
-		top: 70px;
+		top: 80px;
 	}
 
 	.t1 {
@@ -982,25 +1209,54 @@ footer {
 	.t6, .t7, .t8, .t9, .t10 {
 		width: 60px;
 		font-size: 42px;
-		top: 130px;
+		top: 140px;
 	}
 
 	.t11 {
 		width: 60px;
 		font-size: 42px;
-		top: 190px;
+		top: 200px;
 	}
 
 	.t12 {
 		width: 60px;
 		font-size: 42px;
-		top: 190px;
+		top: 200px;
 	}
 
 	.t13 {
 		width: 60px;
 		font-size: 42px;
-		top: 190px;
+		top: 200px;
+	}
+	.t14 {
+		width: 60px;
+		font-size: 42px;
+		top: 200px;
+	}
+
+	.t15 {
+		width: 60px;
+		font-size: 42px;
+		top: 200px;
+	}
+
+	.t16 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
+	}
+
+	.t17 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
+	}
+
+	.t18 {
+		width: 60px;
+		font-size: 42px;
+		top: 260px;
 	}
 
 	.t6 {
@@ -1035,10 +1291,30 @@ footer {
 		left: 28px;
 	}
 
+	.t14 {
+		left: 98px;
+	}
+
+	.t15 {
+		left: 168px;
+	}
+
+	.t16 {
+		left: -110px;
+	}
+
+	.t17 {
+		left: -42px;
+	}
+
+	.t18 {
+		left: 28px;
+	}
+
 	.palka {
 		top: 415px;
 		left: 370px;
-		height: 320px;
+		height: 400px;
 	}
 
 	.p1, .p2, .p3, .p4, .p5 {
@@ -1048,7 +1324,7 @@ footer {
 
 	.practice {
 		left: 670px;
-		top: 425px;
+		top: 415px;
 	}
 
 	.pr {
@@ -1056,7 +1332,7 @@ footer {
 	}
 
 	.p1, .p2, .p3 {
-		top: 70px;
+		top: 80px;
 	}
 
 	.p3 {
@@ -1064,12 +1340,12 @@ footer {
 	}
 
 	.p4, .p5 {
-		top: 140px;
+		top: 150px;
 		width: 175px;
 	}
 
 	.p6 {
-		top: 140px;
+		top: 150px;
 		width: 170px;
 		font-size: 42px;
 	}
@@ -1100,36 +1376,50 @@ footer {
 
 	.p7 {
 		left: -285px;
-		top: 210px;
+		top: 220px;
 		width: 100px;
 		font-size: 42px;
 	}
 
 	.p8 {
 		left: -170px;
-		top: 210px;
+		top: 220px;
 		width: 125px;
 		font-size: 42px;
 	}
 
 	.p9 {
 		left: -30px;
-		top: 210px;
+		top: 220px;
 		width: 125px;
 		font-size: 42px;
 	}
 
 	.p10 {
 		left: 110px;
-		top: 210px;
+		top: 220px;
 		width: 150px;
 		font-size: 42px;
 	}
 
 	.p11 {
 		left: 280px;
-		top: 140px;
+		top: 150px;
 		width: 100px;
+		font-size: 42px;
+	}
+
+	.p12 {
+		left: 275px;
+		top: 220px;
+		width: 130px;
+		font-size: 42px;
+	}
+
+	.p13 {
+		left: 326px;
+		top: 80px;
+		width: 95px;
 		font-size: 42px;
 	}
 
@@ -1137,13 +1427,13 @@ footer {
 	.palka2 {
 		top: 415px;
 		left: 1100px;
-		height: 350px;
+		height: 400px;
 	}
 
 	.hm1, .hm2 {
-		font-size: 42px;
-		width: 150px;
-		top: 60px;
+		font-size: 40px;
+		width: 135px;
+		top: 75px;
 	}
 
 	.hm {
@@ -1152,32 +1442,47 @@ footer {
 
 	.homework {
 		left: 1250px;
-		top: 425px;
+		top: 415px;
 	}
 
 	.hm1 {
-		left: -130px;
+		left: -135px;
 	}
 
 	.hm2 {
-		left: 75px;
+		left: 20px;
 	}
 
 	.hm3 {
-		font-size: 42px;
-		width: 150px;
-		top: 140px;
+		font-size: 40px;
+		width: 135px;
+		top: 75px;
 	}
 
 	.hm3 {
-		left: -130px;
+		left: 175px;
 	}
 
 	.hm4 {
-		font-size: 42px;
-		width: 150px;
-		top: 140px;
-		left: 75px;
+		font-size: 40px;
+		width: 135px;
+		top: 155px;
+		left: -135px;
+	}
+
+	.hm5 {
+		font-size: 40px;
+		width: 135px;
+		top: 155px;
+		left: 20px;
+	}
+
+	footer {
+		left: 385px;
+	}
+
+	.soc img {
+		left: 65%;
 	}
 
 }
