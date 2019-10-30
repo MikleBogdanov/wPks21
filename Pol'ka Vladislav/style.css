@@ -913,8 +913,8 @@ header {
 	text-decoration: none;
 	color: #000;
 	font-size: 55px;
-	top: 290px;
-	left: -285px;
+	top: 390px;
+	left: -300px;
 	width: 100px;
 	background-color: #1dd1a1;
 	border-radius: 10px;
@@ -1090,6 +1090,31 @@ header {
 }
 
 .hm5:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.hm6 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 160px;
+	width: 210px;
+	border-radius: 10px;
+} 
+
+.hm6:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.hm6:not(:hover) {
 	border-bottom: none;
 	transform: scale(1);
 	transition: 0.2s;
@@ -1475,6 +1500,13 @@ footer {
 		width: 135px;
 		top: 155px;
 		left: 20px;
+	}
+
+	.hm6 {
+		font-size: 40px;
+		width: 135px;
+		top: 155px;
+		left: 175px;
 	}
 
 	footer {
