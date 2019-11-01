@@ -1,0 +1,46 @@
+body {
+	text-align: center;
+}
+
+.header {
+	margin-left: 4%;
+	width: 92%;
+	height: 220px;
+	background-color: #ffeaa7;
+	margin-top: 2%;
+}
+
+.menu {
+	margin-top: 2%;
+	display: inline-block;
+	width: 25%;
+	height: 500px;
+	background-color: #2ecc71;
+	margin-right: 2%;
+}
+
+.content {
+	margin-top: 2%;
+	margin-left: -4px;
+	display: inline-block;
+	width: 65%;
+	height: 500px;
+	background-color: #a29bfe;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+	.header {
+		margin-left: 1.5%;
+		width: 95%;
+	}
+
+	.content {
+		width: 95%;
+		margin-left: -10px;
+	}
+
+	.menu {
+		width: 95%;
+	}
+}
