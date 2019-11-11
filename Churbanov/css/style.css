@@ -2,7 +2,6 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: #7FFFD4;
-
 }
 .section {
 	top: 30px;
@@ -11,13 +10,12 @@ body {
 	width: 300px;
 	height: 450px;
 	margin: 0;
-	display: block;
 	padding: 0;
 	position: fixed;
 	float: right;
 	background-color: #E0FFFF;
 	border-radius: 15px;
-	border: 2px solid black
+	border: 2px solid black;
 }
 img  {
 	padding: 3px;
@@ -29,30 +27,82 @@ img  {
 	display: flex;
 
 }
+.content {
+	height: calc(100%-175px);
+}
 .button {
-	margin: 10px;
-	padding: 0;
-	width: 30px;
-	height: 30px;
-	border-radius: 7px;
-	border: 2px solid black;
-	align-items: center;
+			width: 50px;
+      		height: 50px;
+      		background: #fff;
+      		border-radius: 5px;
+      		font-family: 'Arctic', cursive;
+      		color: #6C6960;
+      		overflow: hidden;
+      		border: 2px solid #6C6960;
+      		display: flex;
+      		justify-content: center;
+      		align-items: center;
+      		margin: 5px;
+      		font-size: 20px;
 }
 
 .features {
-	position: absolute;
-	margin: 40px;
-	padding: 0;
+	position: relative;
+	margin: 20px;
+	padding: 10px;
 	width: 70%;
-	height: 500px;
+	height: 300px;
 	border-radius: 20px;
 	border-color: #000;
 	border: 2px solid black;
-	right: 0;
+	float: right;
+}
+.lines {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	width: 70%;
+	height: 100px;
+	border-radius: 20px;
+	border-color: #000;
+	border: 2px solid black;
+	float: right;
+}
+.other {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	width: 70%;
+	height: 100px;
+	border-radius: 20px;
+	border-color: #000;
+	border: 2px solid black;
+	float: right;
+}
+.done {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	width: 70%;
+	height: 100px;
+	border-radius: 20px;
+	border-color: #000;
+	border: 2px solid black;
+	float: right;
+}
+.WIP {
+	position: relative;
+	margin: 20px;
+	padding: 10px;
+	width: 70%;
+	height: 100px;
+	border-radius: 20px;
+	border-color: #000;
+	border: 2px solid black;
+	float: right;
 }
 .footer {
-	display: block;
-	position: absolute;
+	position: static;
 	margin: 0;
 	padding: 0;
 	width: 100%;

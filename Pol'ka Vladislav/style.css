@@ -881,6 +881,84 @@ header {
 	transition: 0.2s;
 }
 
+.p13 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 405px;
+	width: 125px;
+	background-color: #1dd1a1;
+	border-radius: 10px;
+} 
+
+.p13:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p13:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.p14 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 390px;
+	left: -300px;
+	width: 100px;
+	background-color: #1dd1a1;
+	border-radius: 10px;
+} 
+
+.p14:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p14:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.p15 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 390px;
+	left: -175px;
+	width: 100px;
+	background-color: #006266;
+	border-radius: 10px;
+} 
+
+.p15:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.p15:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
 .palka2 {
 	position: absolute;
 	margin: 0 auto;
@@ -1013,6 +1091,56 @@ header {
 }
 
 .hm4:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.hm5 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: -95px;
+	width: 210px;
+	border-radius: 10px;
+} 
+
+.hm5:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.hm5:not(:hover) {
+	border-bottom: none;
+	transform: scale(1);
+	transition: 0.2s;
+}
+
+.hm6 {
+	text-align: center;
+	position: absolute;
+	text-decoration: none;
+	color: #000;
+	font-size: 55px;
+	top: 295px;
+	left: 160px;
+	width: 210px;
+	border-radius: 10px;
+} 
+
+.hm6:hover {
+	border-bottom: 3px solid black;
+	border-radius: 10px;
+	transform: scale(1.1);
+	transition: 0.2s;
+}
+
+.hm6:not(:hover) {
 	border-bottom: none;
 	transform: scale(1);
 	transition: 0.2s;
@@ -1339,6 +1467,27 @@ footer {
 		font-size: 42px;
 	}
 
+	.p13 {
+		left: 326px;
+		top: 80px;
+		width: 95px;
+		font-size: 42px;
+	}
+
+	.p14 {
+		left: -285px;
+		top: 290px;
+		width: 95px;
+		font-size: 42px;
+	}
+
+	.p15 {
+		left: -175px;
+		top: 290px;
+		width: 95px;
+		font-size: 42px;
+	}
+
 
 	.palka2 {
 		top: 415px;
@@ -1347,8 +1496,8 @@ footer {
 	}
 
 	.hm1, .hm2 {
-		font-size: 42px;
-		width: 150px;
+		font-size: 40px;
+		width: 135px;
 		top: 75px;
 	}
 
@@ -1362,28 +1511,42 @@ footer {
 	}
 
 	.hm1 {
-		left: -130px;
+		left: -135px;
 	}
 
 	.hm2 {
-		left: 40px;
+		left: 20px;
 	}
 
 	.hm3 {
-		font-size: 42px;
-		width: 150px;
-		top: 155px;
+		font-size: 40px;
+		width: 135px;
+		top: 75px;
 	}
 
 	.hm3 {
-		left: -130px;
+		left: 175px;
 	}
 
 	.hm4 {
-		font-size: 42px;
-		width: 150px;
+		font-size: 40px;
+		width: 135px;
 		top: 155px;
-		left: 40px;
+		left: -135px;
+	}
+
+	.hm5 {
+		font-size: 40px;
+		width: 135px;
+		top: 155px;
+		left: 20px;
+	}
+
+	.hm6 {
+		font-size: 40px;
+		width: 135px;
+		top: 155px;
+		left: 175px;
 	}
 
 	footer {
