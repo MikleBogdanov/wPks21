@@ -6,7 +6,7 @@
 }
 html {
     box-sizing: border-box;
-    overflow: hidden;
+    overflow: visible;
 }
 a{
     text-decoration: none;
@@ -17,9 +17,6 @@ a{
 }
 
 .container{
-    position: absolute;
-    left: 0px;
-    top:0px;
     display: flex;
     max-width: 960px;
     background-color: #fff;
@@ -28,15 +25,19 @@ a{
 .profile-info{
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 50px;
+    padding-top: 19px;
 }
 .profile {
+    position: absolute;
+    top:0;
+    left:0;
+    max-height: 980px;
     max-width:350px;
     background-color: #39383a;
     color: #ababab;
 }
 .profile-photo{
-    height: 225px;
+    height: 235px;
     background-image: url("photo/avatar.jpg");
     background-size: cover;
     background-position: top;
@@ -90,17 +91,17 @@ a{
 .fas, .fab, .far{
     margin-right:10px;
 }
-
 ul#main-menu {
-	font-family: Roboto;
-	font-family: 13px;
-	font-weight: 300;
-	list-style: none;
+    font-family: Roboto;
+    font-family: 13px;
+    font-weight: 300;
+    list-style: none;
     position: relative;
     right: 40px;
     bottom: 10px;
     width: 350px;
     cursor: default;
+    height: 54px;
 }
 ul#main-menu > ul {
 	list-style: none;
@@ -129,7 +130,7 @@ ul#main-menu i {
 	position: relative;
     width: 350px;
     left: 310px;
-    bottom: 962px;
+    bottom: 946px;
 }
 ul#submenu > li {
 	padding: 10px;
