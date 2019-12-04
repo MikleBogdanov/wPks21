@@ -1,0 +1,149 @@
+@font-face {
+    font-family: 'Roboto';
+    font-weight: normal;
+    font-style: normal;
+    src: url(Roboto.ttf);
+}
+html {
+    box-sizing: border-box;
+    overflow: visible;
+}
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+*, *:after, *before {
+    box-sizing: inherit;
+}
+
+.container{
+    display: flex;
+    max-width: 960px;
+    background-color: #fff;
+}
+
+.profile-info{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 19px;
+}
+.profile {
+    position: absolute;
+    top:0;
+    left:0;
+    max-height: 980px;
+    max-width:350px;
+    background-color: #39383a;
+    color: #ababab;
+}
+.profile-photo{
+    height: 235px;
+    background-image: url("photo/avatar.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.profile-text{
+    line-height: 24.19px;
+    font-size: 13px;
+    margin-bottom: 24px;
+    font-family: "Roboto";
+}
+.heading{
+    margin: 0;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Roboto";
+}
+.heading-light {
+    color: #ffffff;
+    border-bottom: 2px #5a5a5a dashed;
+}
+.contacts-title{
+    color: #fff;
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Roboto";
+}
+.contacts-number{
+    transition: 0.5s;
+    filter:blur(5px);
+    color: #ababab;
+    padding-left:31px;
+    line-height: 20.97px;
+}
+.contacts-number:hover{
+    transition: 0.5s;
+    filter: blur(0px);
+  }
+.contacts-text{
+    color: #ababab;
+    padding-left:31px;
+    line-height: 20.97px;
+}
+.contacts-item{
+    border-bottom: 2px #5a5a5a dashed;
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+.fas, .fab, .far{
+    margin-right:10px;
+}
+ul#main-menu {
+    font-family: Roboto;
+    font-family: 13px;
+    font-weight: 300;
+    list-style: none;
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    width: 350px;
+    cursor: default;
+    height: 54px;
+}
+ul#main-menu > ul {
+	list-style: none;
+	opacity: 0;
+}
+ul#main-menu li {
+	background: #39383a;
+    padding: 15px 50px 18px 10px;
+	border-bottom: 2px solid #5a5a5a;
+}
+ul#main-menu li:hover {
+    transition: 0.75s;
+    background: #5a5a5a;
+}
+
+ul#main-menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+ul#main-menu i {
+    padding-right: 15px;
+    padding-left: 5px;
+}
+#submenu {
+	color: #fff;
+	position: relative;
+    width: 350px;
+    left: 310px;
+    bottom: 946px;
+}
+ul#submenu > li {
+	padding: 10px;
+}
+ul#main-menu ul#submenu.show-submenu {
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+ul#main-menu ul#submenu.hide-submenu {
+    cursor: pointer;
+    display: none;
+}

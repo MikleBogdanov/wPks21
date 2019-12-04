@@ -5,6 +5,12 @@
 	height: 100vh;
 	background-color: #ececec;
 }
+#defaultCanvas0{
+	position: fixed;
+	z-index: -100;
+	width: 200%;
+	background-color: #ececec;
+}
 *{
 	margin: 0;
 	padding: 0;

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Шестаков Андрей</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+	<style type="text/css">
+		 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+		body {
+background-color: #f5f5f5;
+    font-family: 'Montserrat',  sans-serif;
+    transition: 0.3s;
+}
+
+.container {                          /позиция аватарки
+    position: absolute;         
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    width: 1140px;
+    flex-direction: column;
+}
+
+i {
+    transition: 0.3s;                     /окружающая менюшка
+}
+
+.block {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    margin: 10px;
+    transition: 0.3s;
+}
+.work a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    border: none;
+}
+
+.container img {
+    width: 180px;
+    height: 180px;
+    border-radius: 500px;
+}
+
+.name {
+    margin: 30px auto 30px;
+    height: 100px;
+    width: 500px;
+    border-radius: 30px;
+}
+
+.name h1 {
+    color: #000;
+    font-family: 'montserrat';
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    max-width: 700px;
+    text-align: center;
+    background: rgba(255, 253, 160, 1);
+    background: -webkit-linear-gradient( left, #00ffff 0%, #97fba0 25%, #97b1fb 50%, #00ffff 100%) repeat;
+    -webkit-background-clip: text;
+    -ms-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -ms-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    text-fill-color: transparent;
+    -webkit-animation-name: masked-animation;
+    -webkit-animation-duration: 50s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    line-height: 45px;
+    cursor: default;
+}
+@-webkit-keyframes masked-animation {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -8000px -3000px;
+    }
+}
+ul {
+    list-style: none;
+    display: block;
+    margin:0px;
+    padding:0px;
+}
+ul:after {
+    display: block;
+    float: none;
+    content: ' ';
+    clear: both;
+}
+ul.mmenuu > li {
+    float: left;
+    position: relative;
+}
+ul.mmenuu > li > a {
+    display: block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #da570f;
+}
+ul.mmenuu > li > a:hover {
+    background-color: #eb9316;
+}
+ul.ssubmenuu {
+    position: absolute;
+    width: 240px;
+    top: 37px;
+    left:0px;
+    display: none;
+    background-color: white;
+}
+ul.ssubmenuu > li {
+    display: block;
+}
+ul.ssubmenuu > li > a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #da570f;
+}
+ul.ssubmenuu > li > a:hover {
+    background-color: #eb9316;
+    text-decoration: underline;
+}
+ul.mmenuu > li:hover > ul.ssubmenuu {
+    display: block;
+}
+.txt {
+	color: #fff;
+	text-align: center; 
+}
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 30px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+.social {
+	position: relative;
+	left:1200px;
+	top: -120px;
+}
+.youtube a:hover {background: #c4302b; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+
+	</style>
+</head>
+<body>
+<div class="container">
+        <div class="width">
+            <div class="theme">
+                <i class="far fa-moon"></i>
+            </div>
+        </div>
+        <img src="Iam.jpg">
+        <div class="name block">
+            <h1>Андрей Шестаков</h1>
+        </div>  
+
+	<ul class="mmenuu">
+    <li><a href=slaider/index.html>Слайдер</a>
+    </li>
+    <li><a href=#>Фичи css</a>
+        <ul class="ssubmenuu">
+            <li><a href="CSS1/index.html">№1</a></li>
+            <li><a href="CSS2/index.html">№2</a></li>
+	    <li><a href="CSS3/index.html">№3</a></li>
+            <li><a href="CSS4/index.html">№4</a></li>
+	    <li><a href="CSS5/index.html">№5</a></li>
+            <li><a href="CSS6/index.html">№6</a></li>
+	    <li><a href="CSS7/index.html">№7</a></li>
+            <li><a href="CSS8/index.html">№8</a></li>
+	    <li><a href="CSS9/index.html">№9</a></li>
+	    <li><a href="CSS10/index.html">№10</a></li>
+	    <li><a href="CSS11/index.html">№11</a></li>
+            <li><a href="CSS12/index.html">№12</a></li>
+	    <li><a href="CSS13/index.html">№13</a></li>
+	    <li><a href="CSS14/index.html">№14</a></li>
+	    <li><a href="CSS15/index.html">№15</a></li>
+	    <li><a href="CSS16/index.html">№16</a></li>
+           
+        </ul>
+    </li>
+    <li><a href="Калькулятор/kalkulator.html">Калькулятор</a>
+        <li><a href="first game/index.html">Игра</a>
+        <li><a href="index za warudo.html">видео</a>
+
+    </li>
+     <li><a href="sait for OPD/index.html">ОПД</a>
+
+    </li>
+</ul>
+<h1 class="txt">Способности </h1> <font color="999999">
+<p class="txt">Работать за еду,смотреть джоджо </p>
+<font color="999999">
+Добро пожаловать!</font></h1>
+<div class="social youtube">
+    <a href="https://www.youtube.com/channel/UCe0plcAyXdQt-6XZ_FzIGzQ?view_as=subscriber" target="_blank"><i class="fa fa-youtube fa-2x"></i></a>
+</div>
+<div class="social vk">
+    <a href="vk.com/blvck1312" target="_blank"><i class="fa fa-vk fa-2x"></i></a>   
+</div>
+</body>
+</html>
